@@ -36,5 +36,5 @@ jobs:
         pytest test_*.py
         coverage run test_*.py
         coverage html
-        pydoc -p 5000
+        pydoc3 -p 5000
       
