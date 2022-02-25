@@ -1,5 +1,4 @@
 pandas
 sklearn
 coverage
-pydoc
 mypy
