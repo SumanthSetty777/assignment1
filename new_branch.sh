@@ -1,12 +1,12 @@
 #! /bin/bash
 
 
-release_name=test2
-arr=(r4e-ops-test r4e-demo-tenant)
+release_name=test3
+arr=(assignmet1)
 
 for repo in "${arr[@]}"
 do
-    git clone https://github.com/reputation/"$repo".git "$HOME/Documents/newbranch/$repo"
+    git clone https://github.com/SumanthSetty777/"$repo".git "$HOME/Documents/newbranch/$repo"
     echo "Cloned Succesfully"
 
     cd "$HOME/Documents/newbranch/$repo"
