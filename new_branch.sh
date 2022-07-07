@@ -15,7 +15,7 @@ do
     echo "Created a branch successfully"
     
     git config credential.helper store
-    git https://SumanthSetty777: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@github.com/SumanthSetty777/"$repo".git "$release_name"
+    git push https://SumanthSetty777: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@github.com/SumanthSetty777/"$repo".git "$release_name"
                   
     echo "Pushed Successfully"
     
