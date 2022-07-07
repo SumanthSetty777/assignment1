@@ -18,7 +18,7 @@ do
     git push https://SumanthSetty777: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@github.com/SumanthSetty777/"$repo".git "$release_name"
     Username:SumanthSetty777
     Password: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
-    //withCredentials([usernamePassword(credentialsId: '5a32f9c5-aee6-4368-83b9-98dbd8af656f', passwordVariable: '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', usernameVariable: 'SumanthSetty777')]) { sh('git push https://SumanthSetty777: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@github.com/SumanthSetty777/vedx.git new3')}
+    
                   
     echo "Pushed Successfully"
     
