@@ -2,7 +2,7 @@
 
 
 release_name=test3
-arr=(assignmet1)
+arr=(assignment1)
 
 for repo in "${arr[@]}"
 do
