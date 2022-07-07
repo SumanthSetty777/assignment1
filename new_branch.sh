@@ -2,7 +2,7 @@
 
 
 release_name=test3
-arr=(assignment1)
+arr=(assignment1 vedx)
 
 for repo in "${arr[@]}"
 do
@@ -15,10 +15,7 @@ do
     echo "Created a branch successfully"
     
     git config credential.helper store
-    git push https://SumanthSetty777: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@github.com/SumanthSetty777/"$repo".git "$release_name"
-    Username:SumanthSetty777
-    Password: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
-    
+    git https://SumanthSetty777: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@github.com/SumanthSetty777/"$repo".git "$release_name"
                   
     echo "Pushed Successfully"
     
