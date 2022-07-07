@@ -14,7 +14,7 @@ do
     git checkout -b "$release_name"
     echo "Created a branch successfully"
     
-    git push origin "$release_name"
+    git push https://SumanthSetty777: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@github.com/SumanthSetty777/"$repo".git "$release_name"
     echo "Pushed Successfully"
     
 done
