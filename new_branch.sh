@@ -6,7 +6,7 @@ arr=(assignment1 vedx)
 
 for repo in "${arr[@]}"
 do
-    git clone https://SumanthSetty777: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@github.com/SumanthSetty777/"$repo".git "$HOME/Documents/newbranch/$repo"
+    git clone https://SumanthSetty777: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@github.com/SumanthSetty777/"$repo".git "$HOME/Documents/newbranch/$repo"
     echo "Cloned Succesfully"
 
     cd "$HOME/Documents/newbranch/$repo"
