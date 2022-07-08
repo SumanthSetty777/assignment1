@@ -5,7 +5,7 @@ release_name=test3
 arr=(assignment1 vedx)
 
 for repo in "${arr[@]}"
-
+do
     git clone https://SumanthSetty777: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@github.com/SumanthSetty777/"$repo".git "$HOME/Documents/newbranch/$repo"
     echo "Cloned Succesfully"
 
