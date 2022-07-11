@@ -1,5 +1,5 @@
 package javaposse.jobdsl.dsl.helpers.workflow
-
+javaposse.jobdsl.dsl.helpers.workflow.CpsScmContext.script
 import javaposse.jobdsl.dsl.AbstractContext
 import javaposse.jobdsl.dsl.ContextHelper
 import javaposse.jobdsl.dsl.DslContext
