@@ -4,7 +4,7 @@ pipelineJob('release_branch_creation') {
     displayName('release_branch_creation')
     description('This Jenkins job creates a new branch for release')
      properties {
-           githubProjectUrl('https://github.com/reputation/build_tools')
+           githubProjectUrl('https://github.com/SumanthSetty777/assignment1')
            disableConcurrentBuilds()
         }
     logRotator {
@@ -22,8 +22,8 @@ pipelineJob('release_branch_creation') {
             scm {
                 git {
                     remote {
-                        url('git@github.com:reputation/build_tools.git')
-                        credentials('rdc-jenkins')
+                        url('git@github.com:SumanthSetty777/assignment1.git')
+                        //credentials('rdc-jenkins')
                     }
                     branches('master')
                 }
@@ -35,7 +35,7 @@ pipelineJob('release_branch_creation') {
             //   }
 
             // }
-            scriptPath('jenkinsfiles-kubernetes/release_branch_creation.groovy')
+            scriptPath('./release_branch_creation.groovy')
         }
     }
 }
