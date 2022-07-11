@@ -35,7 +35,7 @@ pipelineJob('release_branch_creation') {
             //   }
 
             // }
-            scriptPath('./release_branch_creation.groovy')
+            scriptPath('.assignment1/release_branch_creation.groovy')
         }
     }
 }
