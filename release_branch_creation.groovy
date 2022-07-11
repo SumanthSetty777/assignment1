@@ -10,7 +10,7 @@ pipeline{
                   for(repo in arr){
                     
                         echo "Testing the $repo browser"
-                        sh "git clone https://github.com/reputation/${repo}.git"
+                        sh "git clone https://github.com/SumanthSetty777/${repo}.git"
                         sh "cd $WORKSPACE/$repo && git checkout -b Test"    
                         sh("cd $WORKSPACE/$repo && git push origin Test")   
                         
