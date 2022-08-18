@@ -12,7 +12,7 @@
 
     <groupId>com.reputation.r4e</groupId>
     <artifactId>r4e-dependencies</artifactId>
-    <version>2.111.001-SNAPSHOT</version>
+    <version>2.113.001-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>R4E server-side parent BOM</name>
 
