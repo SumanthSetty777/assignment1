@@ -12,7 +12,7 @@
 
     <groupId>com.reputation.r4e</groupId>
     <artifactId>r4e-dependencies</artifactId>
-    <version>2.121.001-SNAPSHOT</version>
+    <version>2.123.001-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>R4E server-side parent BOM</name>
 
@@ -51,17 +51,17 @@
         <dependency-check-maven.version>4.0.2</dependency-check-maven.version>
 
         <!--R4E Project versions-->
-          <r4e-platform.version>1.96.001-SNAPSHOT</r4e-platform.version>
-          <r4e.version>0.249.001-SNAPSHOT</r4e.version>
-          <r4e-platform-services.version>1.78.001-SNAPSHOT</r4e-platform-services.version>
-          <r4e-api-partner.version>0.100.001-SNAPSHOT</r4e-api-partner.version>
+          <r4e-platform.version>1.98.001-SNAPSHOT</r4e-platform.version>
+          <r4e.version>0.251.001-SNAPSHOT</r4e.version>
+          <r4e-platform-services.version>1.80.001-SNAPSHOT</r4e-platform-services.version>
+          <r4e-api-partner.version>0.102.001-SNAPSHOT</r4e-api-partner.version>
           <r4e-conquer.version>0.86.017</r4e-conquer.version>
           <r4e-komondor.version>1.13.0</r4e-komondor.version>
           <r4x-common.version>7.0.14</r4x-common.version>
           <r4e-automation.version>0.001.001</r4e-automation.version>
-          <meru.version>1.188.001-SNAPSHOT</meru.version>
-          <r4e-integrator.version>0.158.001-SNAPSHOT</r4e-integrator.version>
-          <r4e-integrator2.version>0.43.001-SNAPSHOT</r4e-integrator2.version>
+          <meru.version>1.189.001-SNAPSHOT</meru.version>
+          <r4e-integrator.version>0.159.001-SNAPSHOT</r4e-integrator.version>
+          <r4e-integrator2.version>0.44.001-SNAPSHOT</r4e-integrator2.version>
           <r4e-maven-java.version>0.2.001</r4e-maven-java.version>
           <!--spring boot maven-->
           <spring-boot-maven-plugin.version>2.4.8</spring-boot-maven-plugin.version>
