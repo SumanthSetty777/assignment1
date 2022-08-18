@@ -12,7 +12,7 @@
 
     <groupId>com.reputation.r4e</groupId>
     <artifactId>r4e-dependencies</artifactId>
-    <version>2.120.001-SNAPSHOT</version>
+    <version>2.121.001-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>R4E server-side parent BOM</name>
 
@@ -51,7 +51,7 @@
         <dependency-check-maven.version>4.0.2</dependency-check-maven.version>
 
         <!--R4E Project versions-->
-          <r4e-platform.version>1.95.001-SNAPSHOT</r4e-platform.version>
+          <r4e-platform.version>1.96.001-SNAPSHOT</r4e-platform.version>
           <r4e.version>0.249.001-SNAPSHOT</r4e.version>
           <r4e-platform-services.version>1.78.001-SNAPSHOT</r4e-platform-services.version>
           <r4e-api-partner.version>0.100.001-SNAPSHOT</r4e-api-partner.version>
