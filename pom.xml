@@ -17,7 +17,7 @@
 
     <properties>
 
-        <!-- The spring-boot version should be the same as the parent version above -->
+        <!-- The spring-boot version should be the same as the parent version abovee -->
         <spring-boot.version>2.4.8</spring-boot.version>
 
         <!-- Build properties -->
