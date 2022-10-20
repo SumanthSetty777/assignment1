@@ -1,0 +1,26 @@
+extends includes/layout
+block content
+  .container
+    h3 Reputation Summary (Custom Object)
+    table
+      thead
+        tr
+          th Date
+          th Location ID
+          th Name
+          th score
+          th Star Rating
+          th Social Engagement
+          th Review Count
+          th Average Rating
+      tbody
+        each summary in summaries
+          tr
+            td #{summary.properties.report_date}
+            td #{summary.properties.location_id}
+            td #{summary.properties.location}
+            td #{summary.properties.score}
+            td #{summary.properties.star_average}
+            td #{summary.properties.social_engagement}
+            td #{summary.properties.review_count}
+            td #{summary.properties.rating}

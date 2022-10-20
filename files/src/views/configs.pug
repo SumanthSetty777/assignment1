@@ -1,0 +1,36 @@
+extends includes/layout
+block content
+  .container
+    h3 Reputation Accounts Registered
+    table
+      thead
+        tr
+          th name
+          th id
+          //th API Key
+      tbody
+        each tenant in tenants
+          tr
+            td #{tenant.name}
+            td #{tenant.tenant_id}
+            //td XXXXXXAPI_KEYXXXXXX
+
+    h3 Hubspot Accounts
+    table
+      thead
+        tr
+          th id
+          th name
+          //th refresh_token
+          th tenant
+          th scheduled daily
+      tbody
+        each account in accounts
+          tr
+            td #{account.account_id}
+            td #{account.name}
+            //td XXXXXXrefresh_tokenXXXXXX
+            td #{account.tenant_id}
+            td #{account.schedule}
+
+

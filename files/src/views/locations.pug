@@ -1,0 +1,24 @@
+extends includes/layout
+block content
+  .container
+    h3 Locations
+    table
+      thead
+        tr
+          th ID
+          th internalID
+          th tenantID
+          th type
+          th internalName
+          th externalName
+      tbody
+        each location in locations
+          tr
+            td #{location.id}
+            td #{location.internalID}
+            td #{location.tenantID}
+            td #{location.type}
+            td #{location.internalName}
+            td #{location.externalName}
+
+

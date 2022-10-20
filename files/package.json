@@ -1,0 +1,42 @@
+{
+    "name": "repscore-app",
+    "version": "2.0.0",
+    "engines": {
+      "node": ">= 10.13.0"
+    },
+    "description": "Hubspot app for sending reputation summary data",
+    "main": "src/index.js",
+    "scripts": {
+      "start": "node src/index.js",
+      "dev": "nodemon src/index.js",
+      "lint": "eslint . && prettier --list-different './**/*.{js,json}'",
+      "prettier:write": "prettier --write './**/*.{js,json}'"
+    },
+    "keywords": [
+      "hubspot",
+      "oauth",
+      "reputation"
+    ],
+    "author": "reputation",
+    "license": "Apache-2.0",
+    "dependencies": {
+      "@hubspot/api-client": "^7.1",
+      "body-parser": "^1.19.0",
+      "config": "^3.3.8",
+      "dotenv": "^10",
+      "express": "^4.16.3",
+      "express-session": "^1.17.3",
+      "fs": "^0.0.1-security",
+      "import-fresh": "^3.3.0",
+      "node-cache": "^5.1.2",
+      "node-cron": "^3.0.2",
+      "pug": "^3.0.2",
+      "request": "^2.88.2",
+      "request-promise-native": "^1.0.9"
+    },
+    "devDependencies": {
+      "eslint": "^7.32.0",
+      "nodemon": "^2.0.19",
+      "prettier": "^2.2.1"
+    }
+  }

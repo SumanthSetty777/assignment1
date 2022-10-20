@@ -1,0 +1,149 @@
+{
+  "labels": {
+    "singular": "reputation summary",
+    "plural": "reputation summaries"
+  },
+  "requiredProperties": [
+    "report_date",
+    "location_id",
+    "location",
+    "score"
+  ],
+  "properties": [
+    {
+      "name": "report_date",
+      "label": "Report Date",
+      "isPrimaryDisplayLabel": true,
+      "description": "report date",
+      "type": "date",
+      "fieldType":"date"
+    },
+    {
+      "name": "location_id",
+      "label": "Location Id",
+      "type": "string"
+    },
+    {
+      "name": "location",
+      "label": "Location Name",
+      "isPrimaryDisplayLabel": true,
+      "type": "string"
+    },
+    {
+      "name": "score",
+      "label": "Reputation Score",
+      "isPrimaryDisplayLabel": true,
+      "description": "Reputation Score",
+      "type": "number",
+      "fieldType":"number"
+    },
+    {
+      "name": "review_count",
+      "label": "Review Count",
+      "description": "Count of Reviews",
+      "type": "number",
+      "fieldType":"number"
+    },
+    {
+      "name": "rating",
+      "label": "Average Rating",
+      "description": "Average Rating",
+      "type": "number",
+      "fieldType":"number"
+    },
+    {
+      "name": "response_count",
+      "label": "Review Response Count",
+      "description": "Count of Review Responses",
+      "type": "number",
+      "fieldType":"number"
+    },
+    {
+      "name": "positive_sentiment",
+      "label": "Positive Sentiment Count",
+      "type": "number",
+      "fieldType":"number"
+    },
+    {
+      "name": "negative_sentiment",
+      "label": "Negative Sentiment Count",
+      "type": "number",
+      "fieldType":"number"
+    },
+    {
+      "name": "neutral_sentiment",
+      "label": "Neutral Sentiment Count",
+      "type": "number",
+      "fieldType":"number"
+    },
+    {
+      "name": "star_average",
+      "label": "Star Average of score signals",
+      "description": "Measures the overall average rating across relevant sites",
+      "type": "number",
+      "fieldType":"number"
+    },
+    {
+      "name": "review_volume",
+      "label": "Review Volume of score signals",
+      "description": "Measures the total number of reviews for a given location",
+      "type": "number",
+      "fieldType":"number"
+    },
+    {
+      "name": "review_recency",
+      "label": "Review Recency of score signals",
+      "description": "Measures the recency of reviews across various sites",
+      "type": "number",
+      "fieldType":"number"
+    },
+
+    {
+      "name": "review_length",
+      "label": "Review Length of score signals",
+      "description": "Measures the percentage of reviews considered long",
+      "type": "number",
+      "fieldType":"number"
+    },
+    {
+      "name": "review_spread",
+      "label": "Review Spread of score signals",
+      "description": "Measures how well your reviews are distributed across all major sites",
+      "type": "number",
+      "fieldType":"number"
+    },
+    {
+      "name": "review_response",
+      "label": "Review Response of score signals",
+      "description": "Measures the percentage of reviews that are responded to versus reviews with no response",
+      "type": "number",
+      "fieldType":"number"
+    },
+    {
+      "name": "search_impression",
+      "label": "Search Impression of score signals",
+      "description": "Measures how well your business's information ranks in the first page of search results",
+      "type": "number",
+      "fieldType":"number"
+    },
+    {
+      "name": "listing_accuracy",
+      "label": "Listing Accuracy of score signals",
+      "description": "Measures the accuracy of your business listings across all major sites",
+      "type": "number",
+      "fieldType":"number"
+    },
+    {
+      "name": "social_engagement",
+      "label": "Social Engagement of score signals",
+      "description": "Measure engagement on Facebook based on views, fans, likes, and engaged users",
+      "type": "number",
+      "fieldType":"number"
+    }
+  ],
+  "associatedObjects": [
+  ],
+  "name": "reputation_summary",
+  "primaryDisplayProperty": "score",
+  "metaType": "PORTAL_SPECIFIC"
+}

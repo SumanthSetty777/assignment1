@@ -1,0 +1,25 @@
+{
+  "tenant": {
+    "23947": {
+      "name": "CleanSlate Centers",
+      "tenant_id": "23947"
+    },
+    "110580": {
+      "name": "The Arbor Company",
+      "tenant_id": "110580"
+    },
+    "135399": {
+      "name": "Beacon Orthopaedics",
+      "tenant_id": "135399",
+      "API_KEY": ""
+    },
+    "169367": {
+      "name": "Pacific Mobile Structures",
+      "tenant_id": "169367",
+      "API_KEY": ""
+    }
+  },
+  "account": {
+
+  }
+}

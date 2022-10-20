@@ -1,0 +1,29 @@
+extends includes/layout
+block content
+  .container
+    h3 Setup Reputation Tenant #{account}
+      form(action= "/config", method="POST")
+        input(type="hidden" name="account" id="account_id" class="form-control" value=account)
+
+        //if account
+        //  label(for="inputAccountName" class="sr-only") Hubspot Account Name
+        //  input(type="text" name="account_name" id="inputAccountName" class="form-control" placeholder="Enter your Hubspot Account Name")
+
+        label(for="inputTenant" class="sr-only") Tenant ID
+        input(type="text" name="tenant" id="inputTenant" class="form-control" placeholder="Enter your Reputation Tenant ID*" required)
+
+        //label(for="inputTenantName" class="sr-only") Tenant Name
+        //input(type="text" name="tenant_name" id="inputTenantName" class="form-control" placeholder="Enter your Reputation Tenant Name")
+
+        // input API Key
+        label(for="inputAPI" class="sr-only") Reputation API Key
+        input(type="password" name="api_key" id="inputAPI" class="form-control" placeholder="Enter your Reputation API Key for the Tenant*" required)
+
+        label.checkbox.is-inline
+          input.checkbox-input(type='checkbox' name="schedule" value="on")
+          span.checkbox-label Run everyday
+
+        //input(type='checkbox' name="schedule1" id="inputSchedule" value="true")
+        //label(type="text" for="inputSchedule") Run everyday
+
+        button(class=buttonClass type="submit") Submit

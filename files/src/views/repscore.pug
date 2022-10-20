@@ -1,0 +1,31 @@
+extends includes/layout
+block content
+  .container
+    h3 Repscore
+    table
+      thead
+        tr
+          th ID
+          th Name
+          th Positive Sentiment
+          th Negative Sentiment
+          th count
+          th score
+          th rating
+      tbody
+        each location in repscore.summary.locations
+          tr
+            td #{location.id}
+            td #{location.name}
+            if location.sentimentCount
+              td #{location.sentimentCount.positive}
+              td #{location.sentimentCount.negative}
+            else
+              td 0
+              td 0
+            if location.count
+              td #{location.count}
+            else
+              td 0
+            td #{location.score}
+            td #{location.rating}

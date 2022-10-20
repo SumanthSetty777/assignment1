@@ -1,0 +1,17 @@
+extends includes/layout
+block content
+  .container
+    h3 Account
+    table
+      thead
+        tr
+          th portalId
+          th accountType
+          th timeZone
+      tbody
+          tr
+            td #{account.portalId}
+            td #{account.accountType}
+            td #{account.timeZone}
+
+

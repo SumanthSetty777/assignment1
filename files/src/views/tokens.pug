@@ -1,0 +1,26 @@
+extends includes/layout
+block content
+  - const getTokenApiDetails = ' Get OAuth 2.0 Access Token and Refresh Tokens\n POST /oauth/v1/token\n oauth.defaultApi.createToken'
+  - const getContactsApiDetails = ' Get all companies\n GET /crm/v3/objects/contacts\n crm.contacts.basicApi.getPage'
+  .container
+    h3 Tokens
+    pre #{getTokenApiDetails}
+    table(class='tokens-table')
+      thead
+        tr
+          th Name
+          th Value
+      tbody
+        tr
+          td Access Token
+          td #{token|| ''}
+//-           td #{tokenStore.accessToken || ''}
+//-         tr
+//-           td Refresh Token
+//-           td #{tokenStore.refreshToken || ''}
+//-         tr
+//-           td Expires In
+//-           td #{tokenStore.expiresIn || ''}
+//-         tr
+//-           td Updated At
+//-           td #{tokenStore.updatedAt ? new Date(tokenStore.updatedAt) : ''}
